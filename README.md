@@ -1,4 +1,4 @@
-# Food-Shop---Java-Swing
+# FoodShop-Java-Swing
 
 ![](Images/img1.jpg)
 ![](Images/img2.jpg)
