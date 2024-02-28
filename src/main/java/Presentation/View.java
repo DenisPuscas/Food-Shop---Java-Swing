@@ -84,8 +84,8 @@ public class View extends JFrame{
         contentPanel.setPreferredSize(new Dimension(1525, 730));
         contentPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 0));
 
-//        createProductsPanel(contentPanel, productBll.findAllProducts());
-        createSellPanel(contentPanel);
+        createProductsPanel(contentPanel, productBll.findAllProducts());
+        // createSellPanel(contentPanel);
 
         JPanel mainPanel = new JPanel();
         mainPanel.setPreferredSize(new Dimension(1550, 830));
@@ -960,7 +960,7 @@ public class View extends JFrame{
     public String getEmailInput(){return this.emailTextField.getText();}
     public String getLastNameInput(){return this.lastNameTextField.getText();}
     public String getAddrInput(){return this.addrTextField.getText();}
-    public String getPassInput(){return this.passwordTextField.getPassword();}
+    public String getPassInput(){return this.passwordTextField.getText();}
     public String getTelInput(){return this.phoneTextField.getText();}
 
 
